@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="body">
+    <header>
+      <h1 id="title"><u>Survey Form</u></h1>
+    </header>
+    <main>
+      <div >
+        <p id="description">A simple survey form to obtain information</p>
+      </div>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name:
+          <input id="name" type="text" placeholder="Enter your Name" required/>
+        </label>
+        <label for="email" id="email-label">Email:
+          <input id="email" type="email" placeholder="Enter your Email" required/>
+        </label>
+        <label for="number" id="number-label">Number:
+          <input id="number" type="number" min="0" max="100" placeholder="Pick One">
+
+        </label>
+         <select id="dropdown">
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+        </select>
+        <div class="container">
+          <label for="male">
+            <input id="male" type="radio" value="male" name="Gender">Male
+          </label>
+          <label for="female">
+            <input id="female" value="female" type="radio" name="Gender">  Female
+          </label>
+        </div>
+        <div id="checkbox-options">
+          <label for="chocolate">
+            <input id="chocolate" value='chocolate' name="food" type="checkbox"> Chocolate
+          </label>
+
+          <label for="marshmallows">
+            <input id="marshmallow" value="marshmallows" name="food" type="checkbox">Marshmallows
+          </label>
+          <label for="lemons">
+            <input id="lemons" value="lemons" name="food" type="checkbox">Lemons
+          </label>
+          <label for="Skittles">
+            <input id="Skittles" value="Skittles" name="food" type="checkbox">Skittles
+          </label>
+          <label for="m&m">
+            <input id="m&m" value="m&m" name="food" type="checkbox">M&M's
+          </label>
+        </div>
+            <textarea></textarea>
+            <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </main>
+    <footer>
+    </footer>
+    </div>
+  </body>
+</head>

@@ -1,0 +1,20 @@
+body{
+  background-color:#123456;
+  transition-duration: 1.5s;
+}
+#quoteBox{
+  margin: 20px 0 0 0;
+  color:black;
+  background-color: #fff;
+  padding:15px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 150px white;
+}
+#author{
+  font-weight: bold;
+}
+.postLogo{
+  height:40x;
+  width:40px;
+
+}
