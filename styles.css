@@ -12,7 +12,13 @@
 
 
 }
-
+#main-photo{
+  width: 75%;
+  height:auto;
+}
+#main-photo:hover{
+  box-shadow: none;
+}
 .navbar-brand img{
   height:20px;
   width:20px;
@@ -31,7 +37,7 @@
   box-shadow: 0 0px 10px 5px rgba(0,0,0,.5);
 }
 .img-thumbnail{
-  border-radius: 0 100px 100px 0 !important;
+  border-radius: 20px  !important;
 }
 .split-line{
   border-right: 2px solid black;
